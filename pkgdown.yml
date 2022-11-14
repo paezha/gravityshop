@@ -1,0 +1,9 @@
+pandoc: 2.19.2
+pkgdown: 2.0.6
+pkgdown_sha: ~
+articles: {}
+last_built: 2022-11-14T16:28Z
+urls:
+  reference: https://paezha.github.io/gravityshop/reference
+  article: https://paezha.github.io/gravityshop/articles
+
