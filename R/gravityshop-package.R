@@ -5,7 +5,7 @@
 ## usethis namespace: end
 NULL
 
-#' gravityshop: A package with templates and data useful to teach a workshop on spatial interaction modelling using `R`
+#' gravityshop: A package with templates and data useful to teach a workshop on spatial analysis modelling using `R`
 #'
 #' @docType package
 #' @name gravityshop-package
@@ -22,10 +22,9 @@ NULL
 ##                TEMPLATES                 ##
 ##############################################
 
-#' Spatial Interaction Modelling Workshop Session 1 Template (Italian Edition).
+#' Spatial Interaction Analysis Workshop Session 1 Template.
 #'
-#' Template for creating a computational notebook for Session 1 of the Italian
-#' edition of the workshop.
+#' Template for creating a computational notebook for Session 1 of the workshop.
 #'
 #' @format An R Markdown file
 #'

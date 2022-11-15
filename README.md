@@ -6,7 +6,7 @@
 <!-- badges: start -->
 
 [![Lifecycle:
-stable](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+stable](https://img.shields.io/badge/lifecycle-experimenal-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 
 [![GitHub
 Stars](https://img.shields.io/github/stars/paezha/gravityshop?style=social)](https://github.com/paezha/gravityshop/stargazers)
@@ -14,11 +14,11 @@ Stars](https://img.shields.io/github/stars/paezha/gravityshop?style=social)](htt
 ![GitHub search hit counter:
 R](https://img.shields.io/github/search/paezha/gravityshop/R)  
 ![GitHub search hit counter:
-exploratory](https://img.shields.io/github/search/paezha/gravityshop/exploratory)
+spatial](https://img.shields.io/github/search/paezha/gravityshop/spatial)
 ![GitHub search hit counter:
-data](https://img.shields.io/github/search/paezha/gravityshop/data)
+interaction](https://img.shields.io/github/search/paezha/gravityshop/interaction)
 ![GitHub search hit counter:
-analysis](https://img.shields.io/github/search/paezha/gravityshop/analysis)
+gravity](https://img.shields.io/github/search/paezha/gravityshop/gravity)
 ![GitHub search hit counter:
 workshop](https://img.shields.io/github/search/paezha/gravityshop/workshop)
 
@@ -34,23 +34,25 @@ commit](https://img.shields.io/github/last-commit/paezha/gravityshop)
 <!-- badges: end -->
 
 Package {gravityshop} is an open educational resource to teach a
-workshop on exploratory data analysis (EDA) using `R` and computational
+workshop on spatial interaction analysis using `R` and computational
 notebooks.
 
 The package aims to combine various advantages of working with the [`R`
 statistical computing project](https://www.r-project.org/):
 
--   Ease of distribution
--   Reproducibility
--   Availability of templates for computational notebooks
--   Rigor in documentation of data sets and computational products
+- Ease of distribution
+- Reproducibility
+- Availability of templates for computational notebooks
+- Rigor in documentation of data sets and computational products
 
-The package is designed for use in a 5-session workshop (approximately
-10 hours) that teaches the principles of exploratory data analysis using
+The package is designed for use in a 6-session workshop (approximately
+12 hours) that teaches the principles of principles of spatial
+interaction analysis, including the peculiarities of interaction data,
+exploratory techniques, and modelling using the gravity model, all using
 `R`. The package includes the following components:
 
--   Document templates with *Sessions*  
--   Data sets used in the *Sessions* or for individual practice/research
+- Document templates with *Sessions*  
+- Data sets used in the *Sessions* or for individual practice/research
 
 The *Sessions* are [R markdown](https://rmarkdown.rstudio.com/)
 documents with the main contents of the workshop. These documents
@@ -63,56 +65,41 @@ can work with them in ways not possible with conventional printed notes.
 
 ### Session 1. Basics of working with `R` (2 h)
 
--   Why `R`?
--   Installing the software: `R` and R Studio
--   Packages
--   Installing packages: CRAN and other sources
--   Getting help
--   (Break)
--   Creating a project
--   Directory structure
--   Creating new files: types of files
--   Literate programming
--   Data objects/classes and basic operations
+- Why `R`?
+- Installing the software: `R` and R Studio
+- Packages
+- Installing packages: CRAN and other sources
+- Getting help
+- (Break)
+- Creating a project
+- Directory structure
+- Creating new files: types of files
+- Literate programming
+- Data objects/classes and basic operations
 
-### Session 2. Data (2 h)
+### Session 2. What is special about interaction data? (2 h)
 
--   Why measuring things?  
--   Scales of measurement  
--   Data objects revisited
--   (Break)
--   Quick data summaries
--   Data manipulation
--   {dplyr}: a grammar of data manipulation
+- Why measuring things?
 
-### Session 3. Exploratory data analysis I: Descriptive statistics (2 h)
+### Session 3. Visualization of interaction data (2 h)
 
--   What is EDA?
--   Data summaries revisited
--   Appropriate summary statistics by scale of measurement
--   Properties of data: central tendency and spread
--   (Break)
--   Univariate description
--   Bivariate description
--   Multivariate description
+- What is EDA?
 
-### Session 4. Exploratory data analysis II: Visualization techniques (2 h)
+### Session 4. The gravity model for spatial interaction: Basic concepts (2 h)
 
--   Why visualization?
--   {ggplot2}: a grammar of plots
--   Creating empty plots
--   Mapping data to aesthetics
--   (Break)
--   Geometric objects
--   Univariate description
--   Bivariate description
--   Multivariate description
+- Why visualization?
 
-### Session 5. A date with EDA: Bring your own data (2 h)
+### Session 5. The gravity model for spatial interaction: Implementation (2 h)
 
--   Reading external data
--   Hands-on practice  
--   Some additional notes on working with Rmarkdown
+- Reading external data
+
+### Session 6. The gravity model for spatial interaction: Implementation (2 h)
+
+- Reading external data
+
+### Session 7. A date with the gravity model: Bring your own data (2 h)
+
+- Reading external data
 
 ## What do I need to use this package?
 

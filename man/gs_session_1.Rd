@@ -2,7 +2,7 @@
 % Please edit documentation in R/gravityshop-package.R
 \name{gs_session_1}
 \alias{gs_session_1}
-\title{Spatial Interaction Modelling Workshop Session 1 Template (Italian Edition).}
+\title{Spatial Interaction Analysis Workshop Session 1 Template.}
 \format{
 An R Markdown file
 }
@@ -10,7 +10,6 @@ An R Markdown file
 gs_session_1()
 }
 \description{
-Template for creating a computational notebook for Session 1 of the Italian
-edition of the workshop.
+Template for creating a computational notebook for Session 1 of the workshop.
 }
 \keyword{datasets}

@@ -2,3 +2,22 @@ url: https://paezha.github.io/gravityshop/
 template:
   bootstrap: 5
 
+reference:
+- title: Templates
+  desc: >
+    Templates for workshop.
+  contents:
+  - gs_session_1
+
+- title: Data Sets
+
+- subtitle: Auctions in a Distressed Real Estate Market in Italy
+  desc: >
+    A data set with information about auctions of foreclosed properties in Italy
+    between 2000 and 2016.
+  contents:
+  - auctions_amf
+  - auctions_pf
+  - auctions_phy
+  - auctions_sef
+

@@ -4,9 +4,11 @@
 \name{gravityshop-package}
 \alias{gravityshop}
 \alias{gravityshop-package}
-\title{gravityshop: Resources for Teaching a Workshop on Spatial Interaction Modelling}
+\title{gravityshop: Resources for Teaching a Workshop on Spatial Interaction Analysis}
 \description{
-Templates and data for teaching a workshop on spatial interaction modelling using `R`.
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
+Templates and data for teaching a workshop on spatial interaction analysis using `R`.
 }
 \references{
 \url{https://github.com/paezha/gravityshop}
